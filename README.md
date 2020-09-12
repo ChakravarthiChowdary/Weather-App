@@ -3,7 +3,7 @@
 Weather-App is a web application for getting the weather of current location and for the required city and country.
 This is built using React Hooks, Redux and Material-UI.
 
-![alt text](https://github.com/ChakravarthiChowdary/search-paginate/blob/master/src/Search-Paginate.PNG)
+![alt text](https://github.com/ChakravarthiChowdary/Weather-App/blob/master/src/Weather-App.PNG)
 
 ## Installation
 
