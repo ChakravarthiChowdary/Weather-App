@@ -8,6 +8,7 @@ import {
   faCloudSun,
   faCloudSunRain,
   faPooStorm,
+  faSmog,
   faSnowflake,
 } from "@fortawesome/free-solid-svg-icons";
 import { useSelector } from "react-redux";
@@ -66,6 +67,8 @@ const Weather = () => {
     icon = faCloudSun;
   } else if (id <= 804 && id >= 801) {
     icon = faCloudMeatball;
+  } else if (id === 741) {
+    icon = faSmog;
   }
   return (
     <Container>
