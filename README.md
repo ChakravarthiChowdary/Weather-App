@@ -5,6 +5,8 @@ This is built using React Hooks, Redux and Material-UI.
 
 ![alt text](https://github.com/ChakravarthiChowdary/Weather-App/blob/master/src/Weather-App.PNG)
 
+![alt text](https://github.com/ChakravarthiChowdary/Weather-App/blob/master/src/Weather-App2.PNG)
+
 ## Installation
 
 ```bash
