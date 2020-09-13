@@ -46,6 +46,8 @@ const Weather = () => {
   const weatherData = useSelector((state) => state.weatherData);
   const error = useSelector((state) => state.error);
 
+  const currentDate = String(new window.Date()).slice(0, 15);
+
   if (error) {
     return <Error message="Something went wrong! Please search again!" />;
   }
@@ -77,6 +79,12 @@ const Weather = () => {
           <div className={classes.weatherTitle}>
             <Typography variant="h2">
               {weatherData.name},{weatherData.sys.country}
+            </Typography>
+            <Typography
+              style={{ textAlign: "center", fontStyle: "italic" }}
+              variant="h6"
+            >
+              {currentDate}
             </Typography>
           </div>
           <div className={classes.weatherIcon}>

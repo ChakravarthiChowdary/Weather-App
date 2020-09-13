@@ -57,7 +57,7 @@ const Search = ({ isGeolocationEnabled, coords }) => {
   };
 
   useEffect(() => {
-    if (coords) {
+    if (isGeolocationEnabled && coords) {
       dispatch(getWeatherData(coords.latitude, coords.longitude, true));
     }
   }, [coords, dispatch]);
